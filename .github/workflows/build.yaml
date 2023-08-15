@@ -54,7 +54,7 @@ jobs:
           artifacts: "pycdc/pycdc.exe,pycdc/pycdas.exe"
           token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
-          draft: true
+          draft: false
 
 
       - name: Setup latest Alpine Linux
@@ -84,4 +84,4 @@ jobs:
           artifacts: "pycdc/pycdc,pycdc/pycdas"
           token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
-          draft: true
+          draft: false
